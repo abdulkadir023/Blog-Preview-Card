@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    padding: 20px;
+}
+.container {
+    background-color: white;
+    width: 400px;
+    height: 580px;
+    box-shadow: 10px 10px;
+    border-radius: 20px;
+}
+.container img{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 350px;
+    height:200px;
+    
+  }
+  .container img:hover{
+    transform: scale(1.05); 
+    transition: 0.2s;
+    cursor: pointer;
+    transition-timing-function: ease-out;
+  }
+  .category {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 12px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: hsl(0, 0%, 7%);
+    font-family: figtree,  sans-serif;
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 90px;
+    text-align: center;
+    border-style: 3px solid;
+    border-color: hsl(0, 0%, 7%);
+  }
+  .date {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: figtree,  sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-size: 15px;
+  }
+.content {
+    pad: 20px;
+}
+  h1 {
+    margin-left: 25px;
+    font-family: figtree,  sans-serif;
+    margin-top: 20px;
+    color: hsl(0, 0%, 7%) ;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
+  p {
+    color: hsl(0, 0%, 42%);
+    font-family: figtree,  sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .greg {
+    width: 200px;
+  }
+.greg img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: -1px;
+}
+.greg img:hover {
+    transform: scale(1.5); 
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+.greg h3 {
+    float: right;
+    margin-top: 10px;
+    font-family: figtree,  sans-serif;
+}
+.greg h3:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    
+}
