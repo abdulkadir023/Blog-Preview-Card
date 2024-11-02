@@ -4,6 +4,7 @@
 }
 body {
     background-color: hsl(47, 88%, 63%);
+    font-size: calc(0.75em + 1rmin);
 }
 .card {
     display: flex;
@@ -21,9 +22,9 @@ body {
 }
 .container img{
     margin-top: 30px;
-    margin-left: 25px;
-    width: 350px;
-    height:200px;
+    margin-left: 30px;
+    width: 85%;
+    height:auto;
     
   }
   .container img:hover{
@@ -47,6 +48,12 @@ body {
     text-align: center;
     border-style: 3px solid;
     border-color: hsl(0, 0%, 7%);
+  }
+  .category:hover {
+    transform: scale(1.05); 
+    transition: 0.2s;
+    cursor: pointer;
+    transition-timing-function: ease-out
   }
   .date {
     margin-left: 25px;
