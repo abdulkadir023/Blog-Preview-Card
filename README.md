@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add live solution URL here](https://github.com/abdulkadir023/Blog-Preview-Card)
-- Live Site URL: [Add live site URL here](https://vercel.com/abdulkadir023s-projects/blog-preview)
+- Solution URL: [https://github.com/abdulkadir023/Blog-Preview-Card](https://github.com/abdulkadir023/Blog-Preview-Card)
+- Live Site URL: [https://vercel.com/abdulkadir023s-projects/blog-preview](https://vercel.com/abdulkadir023s-projects/blog-preview)
 
 ## My process
 
